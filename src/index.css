@@ -1,0 +1,101 @@
+/* src/App.css */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5; /* Light gray background */
+}
+
+.auth-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h2 {
+  color: #1c1e21;
+  margin-bottom: 1.5rem;
+  font-size: 24px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Red border when passwords don't match */
+.input-error {
+  border-color: #dc3545 !important;
+}
+
+button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.toggle-text {
+  margin-top: 1.5rem;
+  font-size: 14px;
+  color: #606770;
+}
+
+.toggle-link {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.profile-info {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.profile-info label {
+  font-size: 12px;
+  color: #888;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 10px;
+}
+
+.profile-info p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #333;
+}
+
+textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-family: inherit;
+}
